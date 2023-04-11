@@ -1,0 +1,14 @@
+/* Main content */
+.fixed-top {
+    position: fixed;
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    transition: 0.2;
+  }
+
+
+.fixed-top.scrolled{
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
